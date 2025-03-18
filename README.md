@@ -1,48 +1,40 @@
 # Roshidere Alya (White) - Browser Theme
 
-A beautiful and elegant browser theme inspired by **Alisa Mikhailovna**, a famous anime character from the series *"Roshidere"*. This theme features a soft, pastel color palette and a stunning background image of Alisa, creating a serene and visually appealing browsing experience.
+A browser theme inspiring Alisa Mikhailovna, a popular roshidere anime charcter. I made this theme specialy for her fans.
 
-![Theme Preview](theme_ntp_background.png)
-
-
-## Features
-- **Custom Background**: A high-quality wallpaper featuring Alisa Mikhailovna.
-- **Pastel Color Scheme**: A soothing combination of pinks, blues, and whites.
-- **Optimized for Chrome**: Designed to work seamlessly with Chrome's New Tab Page (NTP).
-
+![Theme Preview - background](theme_ntp_background.png)
 
 ## Installation
-Via [Chrome Webstore](https://chromewebstore.google.com/detail/roshidere-alyawhite/mbgggdmlcllmckdbagbgdldeinanllcj).
-
+Via [Chrome Store](https://chromewebstore.google.com/detail/roshidere-alyawhite/mbgggdmlcllmckdbagbgdldeinanllcj)
 
 ## Customization
-If you'd like to customize the theme further,
-- Edit the manifest.json file to change colors or other properties.
-- Replace theme_ntp_background.png with your own image (recommended size: 1920x1080).
+If you like to customize the theme further,
+- Make changes in manifest.json file to change colors or any other properties.(highlighted below)
+- Replace theme_ntp_background.png with your own image if u like to change the background image
 
-## Guide to manifest.json
-This mini guide will help you to understand what each property will do in manifest.json file.
-The theme object contains the visual configuration for your theme.
+## Understanding manifest.json
+This mini guide will help you to understand what each property using for in manifest.json file
 
-### Basic Properties
-- manifest_version: Specifies the version of the manifest file format. For Chrome themes, this should be 3.
+### Basic Properties to understand
+- manifest_version: the version of manifest file format. version 3 for chrome themes
+- version: The version of your theme (ex:- 1.0.0)
+- name: The name of your theme
 ```
-"manifest_version": 3,
-```
-- version: The version of your theme (e.g., 1.0.0).
-```
+{
+  "manifest_version": 3,
   "version": "1.0.0",
-```
-- name: The name of your theme (e.g., Roshidere Alya (White)).
-```
-"name": "Roshidere Alya(white)",
+  "name": "Roshidere Alya(white)",
+.
+.
+.
+}
 ```
 ### Theme Properties
-The theme object contains the visual configuration for your theme.
+The theme object contains the visual configuration of this theme, like as colours and background wallpeper.
 #### Background image
-theme_ntp_background: Specifies the background image for the New Tab Page (NTP). This should be the path to your image file (e.g., theme_ntp_background.png).
+theme_ntp_background: Specifies the background image for the NTP(New Tab Page). This should be the path to your image file
 #### Colors
-The colors object defines the color scheme for various parts of the browser UI. Each color is specified as an RGB array (e.g., [229, 171, 197]).
+The colors object defines the color scheme for various parts of the browser UI. Each color is specified in RGB format
 
 - frame: The color of the browser frame (the top part of the window).
 ```
@@ -174,8 +166,8 @@ The colors object defines the color scheme for various parts of the browser UI. 
 ```
 
 #### Properties
-- ntp_background_alignment: Specifies the alignment of the background image on the New Tab Page
-- ntp_background_repeat: Specifies whether the background image should repeat
+- ntp_background_alignment Specifies the alignment of the background image on the New Tab Page
+- ntp_background_repeat Specifies whether the background image should repeat
 ```
 "properties": {
       "ntp_background_alignment": "center top",
@@ -186,3 +178,6 @@ The colors object defines the color scheme for various parts of the browser UI. 
 ## Screenshots
 Heres how it looks like after installation on browser
 ![sample](/Screenshots/ss1.png)
+
+## Credit for image
+by [Doga Kobo](https://wall.alphacoders.com/big.php?i=1371400)
