@@ -1,0 +1,89 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Roshidere Alya(white)",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "theme_ntp_background.png"
+    },
+    "colors": {
+      "frame": [
+        229,
+        171,
+        197
+      ],
+      "ntp_background": [
+        111,
+        204,
+        188
+      ],
+      "tab_text": [
+        161,
+        50,
+        78
+      ],
+      "tab_background_text": [
+        161,
+        50,
+        78
+      ],
+      "bookmark_text": [
+        181,
+        71,
+        118
+      ],
+      "ntp_text": [
+        181,
+        71,
+        118
+      ],
+      "ntp_link": [
+        6,
+        55,
+        116
+      ],
+      "ntp_header": [
+        156,
+        156,
+        156
+      ],
+      "toolbar": [
+        170,
+        221,
+        227
+      ],
+      "toolbar_text": [
+        187,
+        122,
+        150
+      ],
+      "button_background": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "toolbar_button_icon": [
+        187,
+        122,
+        150
+      ],
+      "omnibox_background": [
+        230,
+        252,
+        255
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0,
+        0,
+        1
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "center top",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
