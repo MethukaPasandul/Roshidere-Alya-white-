@@ -184,3 +184,5 @@ The colors object defines the color scheme for various parts of the browser UI. 
 ```
 
 ## Screenshots
+Heres how it looks like after installation on browser
+![sample](/Screenshots/ss1.png)
